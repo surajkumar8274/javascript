@@ -8,7 +8,7 @@ function CountingEvenOdd(arr, arr_size)
          
         // checking if a number is completely
         // divisible by 2
-        if (arr[i] & 1 == 1)
+        if (arr[i] % 2== 1)
             odd_count++;
         else
             even_count++;
