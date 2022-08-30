@@ -1,0 +1,27 @@
+let arr =[1,2,3,4,5];
+let newarr = arr.map((item) => {
+    return item*item;
+});
+console.log("originalarr",arr);
+console.log(newarr);
+
+let ans =["1","2","3"].map(Number);
+console.log(ans);
+
+let array =["1","2","5","9"];
+let outarray =array.map((item)=>{
+    return parseInt(item,10);
+})
+ console.log(outarray);
+
+
+let users=[
+    {firstname:"susan", lastname :"steward"},
+    {firstname :"danial" ,lastname:"longbottom"},
+    {firstname:"jacob",lastname:"black"}
+    ];
+    
+    let arr=users.map((item)=>{
+        return item.firstname+ " "+item.lastname;
+    });
+    console.log(arr);
